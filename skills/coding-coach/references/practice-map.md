@@ -45,6 +45,7 @@ id: ts-generics
 title: TypeScript Generics
 status: active
 level: beginner
+target_level: L3
 language: typescript
 created_at: 2026-06-05
 updated_at: 2026-06-05
@@ -62,9 +63,12 @@ Recommended body sections:
 
 - `Goal`: What the user wants to become able to do
 - `Why`: Why this topic matters now
-- `Milestones`: The ladder of competence
+- `Capability Ladder`: Observable abilities from the current level to the target
 - `Current Focus`: The current narrow target
-- `Exercises`: Short reps or assignments
+- `Evidence`: Dated demonstrations with help level and verification
+- `Weakness Queue`: Narrow gaps discovered from attempts
+- `Exercise Queue`: Ready-to-run reps ordered by learning value
+- `Review Schedule`: Delayed retrieval and interleaving prompts
 - `Session Log`: Dated notes from coaching sessions
 - `Next Step`: The next concrete action
 
@@ -75,6 +79,10 @@ Recommended body sections:
 - Update `updated_at` whenever you materially change the map.
 - Change `Current Focus` and `Next Step` whenever the learning target shifts.
 - Add exercises that are concrete enough to attempt immediately.
+- Record what the learner did, how it was verified, and how much help was used.
+- Do not promote a level from reading or a demonstrated solution alone.
+- Keep weaknesses narrow enough to train in one or two reps.
+- Schedule a delayed or interleaved review after meaningful progress.
 - Keep `created_at` stable after first creation.
 - On resume, usually move `status` to `active`.
 - On explicit completion, set `status` to `done` and make `Next Step` reflect either review maintenance or a follow-on topic.
@@ -109,6 +117,7 @@ Recommended shape:
 - Worked on generic constraints.
 - Learned when `extends` narrows a type parameter.
 - Still weak on inferring multiple type parameters.
+- Evidence: implemented one constrained helper with a pointer (`hinted`); tests passed.
 - Next rep: write two constrained helper functions from scratch.
 ```
 
