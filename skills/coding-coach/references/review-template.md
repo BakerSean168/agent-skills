@@ -4,7 +4,7 @@ Use this format when the user wants coaching on their code.
 
 ## What is working
 
-Name one or two concrete strengths.
+Name one or two concrete behaviors or decisions that work. Do not praise code merely for existing.
 
 Examples:
 
@@ -30,6 +30,17 @@ Prefer this order:
 3. Readability
 4. Performance
 5. Style
+
+In `Learn` or `Hybrid` mode, stop before writing the main revision and give the learner a tight implementation boundary. After the attempt, verify it and name the transferable principle.
+
+## Evidence
+
+Close with:
+
+- capability demonstrated
+- help level: `independent`, `docs-only`, `hinted`, `guided`, or `demonstrated`
+- remaining weak point
+- next rep with less scaffolding or a changed context
 
 ## Tone
 
