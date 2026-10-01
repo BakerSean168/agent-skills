@@ -1,4 +1,4 @@
-# skills
+# Agent Skills
 
 Reusable agent skills for coding, learning, and skill authoring.
 
@@ -36,7 +36,7 @@ Entry point: [skills/skill-scaffold/SKILL.md](skills/skill-scaffold/SKILL.md)
 Install from GitHub with the shared `skills` CLI:
 
 ```bash
-npx skills@latest add BakerSean168/skills
+npx skills@latest add BakerSean168/agent-skills
 ```
 
 You can then choose which skills to install and which coding agents to install them for.
@@ -46,7 +46,7 @@ Detailed installation instructions: [INSTALL.md](INSTALL.md)
 ## Repository structure
 
 ```text
-skills/
+agent-skills/
   AGENTS.md
   README.md
   LICENSE

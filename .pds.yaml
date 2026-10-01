@@ -1,0 +1,14 @@
+apiVersion: pds/v1alpha1
+kind: Component
+metadata:
+  id: agent-skills
+  name: Agent Skills
+spec:
+  type: agent-skill-catalog
+  domain: agent-platform
+  lifecycle: active
+  repository:
+    url: https://github.com/BakerSean168/agent-skills.git
+    visibility: public
+  provides:
+    - pds://agent-platform/catalog/agent-skills
