@@ -1,0 +1,5 @@
+version: 1
+agent:
+  display_name: "Personal Agent Onboarding"
+  short_description: "Fast Muse-style onboarding via Tailscale, SSH, PDS and existing tools."
+  default_prompt: "Use $personal-agent-onboarding to connect this trusted Personal Agent to my existing Personal Digital System. Reuse current Tailscale GitHub identity, SSH, PDS and on-host MCP/GitHub tools; verify actual capabilities without creating new gateway services or duplicate stores."

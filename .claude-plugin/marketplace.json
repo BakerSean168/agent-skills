@@ -10,12 +10,13 @@
   "plugins": [
     {
       "name": "core-skills",
-      "description": "Core coaching and scaffolding skills from this repository.",
+      "description": "Core coaching, scaffolding and Personal Agent onboarding skills from this repository.",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/coding-coach",
-        "./skills/skill-scaffold"
+        "./skills/skill-scaffold",
+        "./skills/personal-agent-onboarding"
       ]
     }
   ]

@@ -4,14 +4,14 @@ This repository is designed for the shared `skills` CLI.
 
 Source repository:
 
-- `BakerSean168/skills`
+- `BakerSean168/agent-skills`
 
 ## Quickstart
 
 Install interactively:
 
 ```bash
-npx skills@latest add BakerSean168/skills
+npx skills@latest add BakerSean168/agent-skills
 ```
 
 This lets you:
@@ -25,22 +25,22 @@ This lets you:
 The repository has been smoke-tested with:
 
 ```bash
-npx skills@latest add BakerSean168/skills --list
+npx skills@latest add BakerSean168/agent-skills --list
 ```
 
-Result:
+Historical smoke test (before `personal-agent-onboarding` was added):
 
 - the CLI successfully cloned the repository
-- it discovered `2` skills
-- it listed `coding-coach`
-- it listed `skill-scaffold`
+- it discovered `coding-coach` and `skill-scaffold`
+
+The catalog now also includes `personal-agent-onboarding`. Run the above `--list` command to verify current discovery on your machine.
 
 ## Project install for Codex
 
 Install one skill into the current project:
 
 ```bash
-npx skills@latest add BakerSean168/skills \
+npx skills@latest add BakerSean168/agent-skills \
   --skill coding-coach \
   --agent codex \
   -y \
@@ -56,14 +56,14 @@ Verified project-level output:
 skills-lock.json
 ```
 
-Use `--skill skill-scaffold` to install the scaffold skill instead.
+Use `--skill skill-scaffold` for the scaffold skill or `--skill personal-agent-onboarding` for trusted Personal Agent initialization.
 
 ## Project install for Claude Code
 
 Install one skill into the current project:
 
 ```bash
-npx skills@latest add BakerSean168/skills \
+npx skills@latest add BakerSean168/agent-skills \
   --skill coding-coach \
   --agent claude-code \
   -y \
@@ -84,7 +84,7 @@ skills-lock.json
 Install all skills for a chosen agent:
 
 ```bash
-npx skills@latest add BakerSean168/skills \
+npx skills@latest add BakerSean168/agent-skills \
   --skill '*' \
   --agent codex \
   -y \
@@ -94,7 +94,7 @@ npx skills@latest add BakerSean168/skills \
 Or let the CLI prompt you interactively:
 
 ```bash
-npx skills@latest add BakerSean168/skills
+npx skills@latest add BakerSean168/agent-skills
 ```
 
 ## Global install
@@ -102,13 +102,13 @@ npx skills@latest add BakerSean168/skills
 Use `-g` for a user-level install managed by the `skills` CLI:
 
 ```bash
-npx skills@latest add BakerSean168/skills -g
+npx skills@latest add BakerSean168/agent-skills -g
 ```
 
 You can combine it with `--agent` and `--skill`:
 
 ```bash
-npx skills@latest add BakerSean168/skills \
+npx skills@latest add BakerSean168/agent-skills \
   -g \
   --agent claude-code \
   --skill coding-coach \
@@ -123,6 +123,7 @@ If you do not want to use the `skills` CLI, the repository source of truth is th
 skills/
   coding-coach/
   skill-scaffold/
+  personal-agent-onboarding/
 ```
 
 For project-local usage, the verified fallback locations are:

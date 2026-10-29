@@ -31,6 +31,12 @@ Repository-specific bootstrapper for creating new skills with the local structur
 
 Entry point: [skills/skill-scaffold/SKILL.md](skills/skill-scaffold/SKILL.md)
 
+### `personal-agent-onboarding`
+
+Fast, owner-approved onboarding for trusted Personal Agents (Muse/Sesame style): reuse Tailscale GitHub login, existing SSH, PDS, GitHub CLI and MCP; verify capabilities without creating new services or duplicating data.
+
+Entry point: [skills/personal-agent-onboarding/SKILL.md](skills/personal-agent-onboarding/SKILL.md)
+
 ## Quickstart
 
 Install from GitHub with the shared `skills` CLI:
@@ -57,6 +63,7 @@ agent-skills/
   skills/
     coding-coach/
     skill-scaffold/
+    personal-agent-onboarding/
 ```
 
 ## Conventions
