@@ -1,6 +1,6 @@
 ---
 name: personal-agent-onboarding
-description: Onboard or migrate a user-approved, high-trust Personal Agent such as Muse or Sesame into the owner's Personal Digital System (PDS) with the shortest verified path. Use for 接入个人 Agent、Personal Agent 初始化、Muse 式接入、Sesame 迁移、给新 Agent 连接 Tailscale/Oracle2/SSH、恢复 Agent 访问、或验证 PDS/Mnemosyne/Thought Forest/GitHub 能力。Reuse existing Tailscale identity, SSH, repository and MCP integrations instead of creating dedicated proxy services, duplicate memory stores, or new developer environments.
+description: Onboard or migrate a user-approved, high-trust Personal Agent such as Muse or Sesame into the owner's Personal Digital System (PDS) with the shortest verified path. Use when the user asks for 接入个人 Agent、Personal Agent 初始化、Muse 式接入、Sesame 迁移、给新 Agent 连接 Tailscale/Oracle2/SSH、恢复 Agent 访问、或验证 PDS/Mnemosyne/Thought Forest/GitHub 能力。Reuse existing Tailscale identity, SSH, repository and MCP integrations instead of creating dedicated proxy services, duplicate memory stores, or new developer environments.
 ---
 
 # Trusted Personal Agent onboarding
